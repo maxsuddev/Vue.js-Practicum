@@ -41,8 +41,10 @@ export default {
     this.$emit('create', newMovies);
       this.name = ''
       this.viewers = ''
-    }
-  }
+    },
+
+  },
+
 }
 </script>
 <style scoped>
