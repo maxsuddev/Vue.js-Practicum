@@ -35,10 +35,9 @@ export default {
           viewers: this.viewers,
           favourite: false,
           like: false,
-          id: Date.now(),
         }
 
-    this.$emit('create', newMovies);
+    this.$emit('createMovies', newMovies);
       this.name = ''
       this.viewers = ''
     },
